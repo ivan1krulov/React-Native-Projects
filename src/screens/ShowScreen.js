@@ -10,11 +10,28 @@ const ShowScreen = ({ navigation}) => {
 
     return (
         <View>
-            <Text>{blogPost.title}</Text>
+            <Text style={styles.title}>{blogPost.title}</Text>
+            <Text style={styles.content}>{blogPost.content}</Text>
         </View>
     );
 };
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+    title: {
+   textAlign: 'center',
+   fontSize: 22,
+   paddingVertical: 4,
+    },
+
+    content: {
+    textAlign: 'center',
+    flexDirection: 'row',
+justifyContent: 'space-between',
+paddingVertical: 2,
+borderTopWidth: 1,
+borderColor: 'gray',
+fontSize: 17,
+    },
+});
 
 export default ShowScreen;
