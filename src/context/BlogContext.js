@@ -33,7 +33,9 @@ case 'add_blogpost':
 const addBlogPost = dispatch => {
     return (title, content, callback) => {
     dispatch({type: 'add_blogpost', payload: {title, content}});
- callback();
+if (callback) {
+    callback();
+}
 };
 };
 const deleteBlogPost = dispatch => {
@@ -43,10 +45,14 @@ const deleteBlogPost = dispatch => {
 };
 
 const editBlogPost = dispatch => {
-return (id, title, content) => {
+return (id, title, content, callback) => {
 dispatch({
     type: 'edit_blogpost', 
-    payload:{ id: id, title:title, content: content}})
+    payload:{ id: id, title:title, content: content}
+});
+if (callback) {
+    callback();
+};
 };
 };
 
