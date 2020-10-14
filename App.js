@@ -25,7 +25,13 @@ export default class App extends React.Component {
 <Text style={styles.add}>Add List</Text>
  </View>
  <View style={{height:275, paddingLeft: 32}}>
-<FlatList />
+<FlatList 
+data={tempData} 
+keyExtractor={item => item.name}
+horizontal={true}
+showsHorizontalScrollIndicator={false}
+  renderItem={({item}) => <View><Text>{item.name}</Text></View>}
+/>
  </View>
     </View>
   );
