@@ -7,7 +7,7 @@ export default tempData = [
         todos: [
             {
                 title: "Book Flight",
-                completed: false
+                completed: true
             }
         ]
     },
@@ -37,7 +37,7 @@ color: "black",
 todos: [
     {
         title: "Book Flight",
-        completed: false
+        completed: true
     }
 ]
 },
