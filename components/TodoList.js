@@ -13,8 +13,8 @@ export default TodoList = ({list}) => {
                     <Text style={styles.subtitle}>Remaining</Text>
                 </View>
                 <View style={{alignItems: "center"}}>
-                    <Text style={styles.completed}>0</Text>
-                    <Text style={styles.remaining}>Completed</Text>
+                    <Text style={styles.count}>0</Text>
+                    <Text style={styles.subtitle}>Completed</Text>
                 </View>
             </View>
             </View>
@@ -36,5 +36,17 @@ fontSize: 24,
 fontWeight: "700",
 color: Colors.white,
 marginBottom: 18,
+    },
+
+    count: {
+   fontSize: 48,
+   fontWeight: "200",
+   color: Colors.white
+    },
+
+    subtitle: {
+fontSize: 12,
+fontWeight: "700",
+color: Colors.white
     },
 });
