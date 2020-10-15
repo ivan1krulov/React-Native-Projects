@@ -11,10 +11,11 @@ export default class App extends React.Component {
   return (
     <View style={styles.container}>
       <View style={{flexDirection: "row"}}>
+      <View style={styles.divider} />
         <Text style={styles.title}>
         Todo <Text style={{fontWeight: "300", color: colors.blue}}>List</Text>
         </Text>
-        {/* <View style={styles.divider} /> */}
+        <View style={styles.divider} />
       </View>
       
  
@@ -55,7 +56,7 @@ alignSelf: "center"
 },
 
 title: {
-fontSize: 38,
+fontSize: 43,
 fontWeight: "800",
 color: colors.black,
 paddingHorizontal: 64
