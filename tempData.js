@@ -8,7 +8,37 @@ export default tempData = [
             {
                 title: "Book Flight",
                 completed: false
-            },
+            }
         ]
+    },
+    {
+        name: "Work Day",
+        color: "red",
+        todos: [
+            {
+                title: "Book Flight",
+                completed: false
+            }
+        ]
+    },
+
+    {  name: "Friends",
+    color: "green",
+    todos: [
+        {
+            title: "Book Flight",
+            completed: false
+        }
+    ]
+
+},
+{  name: "Birthday",
+color: "black",
+todos: [
+    {
+        title: "Book Flight",
+        completed: false
     }
+]
+},
 ]
