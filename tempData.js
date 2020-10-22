@@ -1,5 +1,3 @@
-// Temp
-
 export default tempData = [
     {
         name: "Plan a Trip",
@@ -40,45 +38,5 @@ export default tempData = [
                 completed: true
             }
         ]
-    },
-
-    {  name: "Friends",
-    color: "#58AE4C",
-    todos: [
-        {
-            title: "Book Flight",
-            completed: false
-        },
-
-        {
-            title: "Book Flight",
-            completed: false
-        },
-
-        {
-            title: "Book Flight",
-            completed: true
-        }
-    ]
-
-},
-{  name: "Birthday",
-color: "#AE514C",
-todos: [
-    {
-        title: "Book Flight",
-        completed: true
-    },
-
-    {
-        title: "Book Flight",
-        completed: true
-    },
-
-    {
-        title: "Book Flight",
-        completed: true
     }
-]
-},
 ]

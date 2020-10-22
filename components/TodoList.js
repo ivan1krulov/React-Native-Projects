@@ -13,7 +13,7 @@ export default TodoList = ({list}) => {
             
             <View>
                 <View style={{alignItems: "center"}}>
-    <Text style={styles.count}>{remainingCount}</Text>
+                    <Text style={styles.count}>{remainingCount}</Text>
                     <Text style={styles.subtitle}>Remaining</Text>
                 </View>
                 <View style={{alignItems: "center"}}>
@@ -36,21 +36,21 @@ const styles = StyleSheet.create({
     },
 
     listTitle: {
-fontSize: 24,
-fontWeight: "700",
-color: Colors.white,
-marginBottom: 18,
+        fontSize: 24,
+        fontWeight: "700",
+        color: Colors.white,
+        marginBottom: 18,
     },
 
     count: {
-   fontSize: 48,
-   fontWeight: "200",
-   color: Colors.white
+        fontSize: 48,
+        fontWeight: "200",
+        color: Colors.white
     },
 
     subtitle: {
-fontSize: 12,
-fontWeight: "700",
-color: Colors.white
+        fontSize: 12,
+        fontWeight: "700",
+        color: Colors.white
     },
 });

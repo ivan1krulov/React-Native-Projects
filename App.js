@@ -21,11 +21,12 @@ export default class App extends React.Component {
 
     <View style={styles.container}>
       <Modal 
-      animationType="slide" 
-      visible={this.state.addTodoVisible} 
-      onRequestClose={() => this.toggleAddTodoModal()}
+        animationType="slide" 
+        visible={this.state.addTodoVisible} 
+        onRequestClose={() => this.toggleAddTodoModal()}
       >
-          <AddListModal closeModal={() => this.toggleAddTodoModal()} />
+
+        <AddListModal closeModal={() => this.toggleAddTodoModal()} />
       </Modal>
 
       <View style={{flexDirection: "row"}}>
